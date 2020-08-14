@@ -14,9 +14,12 @@ First scan the IP Address given to you for this room eg. nmap -sC -sV 10.10.26.7
 ******************************************************************************************************************************************************************
 
 PORT     STATE SERVICE VERSION
+
 22/tcp   open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+
 80/tcp   open  http    Apache httpd 2.4.29 ((Ubuntu))
 |_http-server-header: Apache/2.4.29 (Ubuntu)
+
 |_http-title: Apache2 Ubuntu Default Page: It works
 8000/tcp open  http    (PHP 7.2.32-1)
 
